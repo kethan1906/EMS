@@ -1,0 +1,47 @@
+Problems Spring Boot Jdbc
+
+1. Manual SQL
+2. manual Row Mapping
+3. No automatic relationship mapping
+4. No Entity Lifecycle management
+5. no first or second level cahce
+6, dynamic queries become complex
+7. pagination sorting need sql
+8. Database specific sql
+9. dev productivity is lower
+
+
+
+JPA- Java Persistence API.
+
+-> Hibernate
+-> Open Jpa
+-> Eclipse Link
+-> My Batis
+
+why JPA/Hibernate
+
+1. ORM automatic
+2. Auto RelationManagement
+3. Caching
+4. JPQL support
+5. Pagination Sorting
+6. TransactionManagement
+7. Entity life cycle management
+8. Reduced boiler plate and basic SQLs
+9. JPA query methods.
+
+
+caching in jpa
+--------------
+
+What is level 1 cache?
+built into hibernate by default
+no config
+scoped into a single session/persistance context
+active within the same transaction
+stores entities loaded in the current session.
+
+
+
+
